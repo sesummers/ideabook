@@ -1,0 +1,18 @@
+<ul>
+  <% @ibooks.each do |idea| %>
+  <div class="stripe">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <a href="/ideas/<%= ibook.id %>">
+            <div><center><a href="/ideas/<%= ibook.id %>/edit">edit</a></center>
+            <center><a href="/ideas/<%= ibook.id %>/destroy">delete</a></center></div>
+        </div>
+      </div>
+    </div>
+   </div>
+    
+   
+
+<% end %>
+</ul>

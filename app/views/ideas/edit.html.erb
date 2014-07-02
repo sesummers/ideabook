@@ -1,0 +1,10 @@
+<h2>Change Your Idea</h2>
+
+<form action="/update_idea/<%= @ibook.id %>">
+  <input type="text" name="name" placeholder = 'name' value='<%= @ibook.name %>'>
+  <input type="text" name="idea" placeholder = "idea" value="<%= @ibook.idea %>">
+  <input type="submit">
+
+
+  
+</form>
